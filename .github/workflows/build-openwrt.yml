@@ -126,7 +126,7 @@ jobs:
       with:
         name: OpenWrt_firmware
         path: ${{ env.FIRMWARE }}
-    #- name: WeChat notification
+    # - name: WeChat notification
     #  run: curl https://sc.ftqq.com/${{ secrets.ServerChan }}.send?text=OpenWrt编译完成
 
   
