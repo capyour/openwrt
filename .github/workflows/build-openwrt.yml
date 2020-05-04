@@ -17,7 +17,7 @@ on:
       - '.config'
       - '*.sh'
   schedule:
-    - cron: 0 22 * * 6
+    - cron: 0 22 * * 1
   watch:
     types: started
 
