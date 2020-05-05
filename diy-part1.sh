@@ -11,8 +11,10 @@
 # fw876/helloworld
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Lienol/openwrt-package
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+# Lienol/openwrt-package passwall mod 
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+
 
 # Modify Default Theme
 #sed -i '/exit 0/i uci batch <<-EOF' package/lean/default-settings/files/zzz-default-settings
