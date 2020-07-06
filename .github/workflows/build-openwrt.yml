@@ -17,10 +17,10 @@ on:
       - '.config'
       - '*.sh'
    schedule:
-     - cron: 0 8 * * 5
-   watch:
-     types: started
-
+     - cron: 0 24 * * 5
+ # watch:
+ #   types: started
+ 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
